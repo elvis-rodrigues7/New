@@ -1,0 +1,21 @@
+.topo__urna {
+    position: absolute;
+    top: 17.8%;
+    left: 20%;
+    width: 43vw;
+    height: 0;
+    border-bottom: 3.5vw solid var(--cinza-topo-urna);
+    border-left: 15vw solid transparent;
+    border-right: 2vw solid transparent;
+}
+
+.frente__urna {
+    position: absolute;
+    width: 60vw;
+    height: 60vh;
+    top: 25%;
+    left: 20%;
+    background-color: var(--branco-urna);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+}
