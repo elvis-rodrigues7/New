@@ -12,20 +12,20 @@ body {
 .listra__amarela1 {
     position: absolute;
     top: 0%;
-    left: 39%;
-    width: 10%;
+    left: 37%;
+    width: 12%;
     height: 0vh;
-    border-bottom: 40vmin solid var(--amarelo-listra);
+    border-bottom: 43vmin solid var(--amarelo-listra);
     border-left: 1vmax solid transparent;
 }
 
 .listra__verde1 {
     position: absolute;
     top: 0%;
-    right: 39%;
-    width: 10%;
+    right: 37%;
+    width: 12%;
     height: 0vh;
-    border-bottom: 40vmin solid var(--verde-listra);
+    border-bottom: 43vmin solid var(--verde-listra);
     border-right: 1vmax solid transparent;
 }
 
@@ -56,7 +56,7 @@ body {
     left: 0%;
     width: 50%;
     height: 0;
-    border-bottom: 10.5vmin solid var(--amarelo-listra);;
+    border-bottom: 10.1vmin solid var(--amarelo-listra);;
     
 }
 
@@ -66,5 +66,5 @@ body {
     right: 0;
     width: 50%;
     height: 0vh;
-    border-bottom: 10.5vmin solid var(--verde-listra);
+    border-bottom: 10.2vmin solid var(--verde-listra);
 }

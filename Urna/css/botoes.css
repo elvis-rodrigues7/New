@@ -1,0 +1,106 @@
+.numeros {
+    display: grid;
+    width: 90%;
+    height: 100%;
+    margin-left: 6%;
+    margin-top: 6%;
+}
+
+.num {
+    grid-template-areas: 
+    "num1 num2 num3"
+    "num4 num5 num6"
+    "num7 num8 num9"
+    ;
+    gap: 15px;
+}
+
+.num__style {
+    width: 5vmax;
+    height: 6vmin;
+    font-size: 1.6rem;
+    text-align: initial;
+    border-radius: 5px;
+    color: var(--branco-botao);
+    background-color: var(--preto-dig);
+    cursor: pointer;
+}
+
+.num1 {
+    grid-area: num1;
+    
+}
+
+.num2 {
+    grid-area: num2;
+}
+
+.num3 {
+    grid-area: num3;
+}
+
+.num4 {
+    grid-area: num4;
+}
+
+.num5 {
+    grid-area: num5;
+}
+
+.num6 {
+    grid-area: num6;
+}
+
+.num7 {
+    grid-area: num7;
+}
+
+.num8 {
+    grid-area: num8;
+}
+
+.num9 {
+    grid-area: num9;
+}
+
+.num0 {
+    position: relative;
+    left: 120%;
+}
+
+
+.editores {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 5%;
+}
+
+.branco {
+    width: 11vmin;
+    height: 3vmax;
+    color: var(--preto-dig);
+    background-color: var(--branco-botao);
+    border: none;
+    border-radius: 5%;
+}
+
+.corrigir {
+    width: 11vmin;
+    height: 3vmax;
+    color: var(--preto-dig);
+    background-color: var(--vermelho-botao);
+    border: none;
+    border-radius: 5%;
+
+}
+
+.confirmar {
+    width: 11vmin;
+    height: 4.5vmax;
+    color: var(--preto-dig);
+    background-color: var(--verde-botao);
+    border: none;
+    border-radius: 5%;
+
+}

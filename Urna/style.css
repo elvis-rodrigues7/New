@@ -1,5 +1,8 @@
 @import url(./css/background__geral.css);
 @import url(./css/corpo__urna.css);
+@import url(./css/totals.css);
+@import url(./css/digitacao.css);
+@import url(./css/botoes.css);
 
 
 :root {
@@ -13,4 +16,7 @@
     --cinza-tela: #dadada;
     --cinza-borda-tela: #acacac;
     --cinza-topo-urna: #eeeeee;
+    --cinza-logo: #e7e7e7;
+    --cinza-dig: #3f3534;
+    --preto-dig: #131313;
 }

@@ -1,0 +1,44 @@
+.totals {
+    display: grid;
+    position: absolute;
+    background-color: var(--cinza-tela);
+    width: 40vmax;
+    height: 60vmin;
+    left: 20%;
+    top: 22%;
+    border-radius: 1%;
+    transform: skew(-6deg);
+}
+
+.totals0 {
+    position: absolute;
+    background-color: var(--cinza-tela);
+    width: 20vmax;
+    height: 60vmin;
+    left: 43%;
+    top: 22%;
+    border-radius: 1%;
+
+    transform: skew(6deg);
+}
+
+.totals1 {
+    position: absolute;
+    background-color: var(--cinza-dig);
+    width: 20vmax;
+    height: 60vmin;
+    left: 65%;
+    top: 22%;
+    border-radius: 1%;
+    transform: skew(6deg);
+}
+
+.Visor {
+    grid-area: visor;
+    width: 13vmax;
+}
+
+.digitacao {
+    grid-area: digitacao;
+    width: 13vmax;
+}
