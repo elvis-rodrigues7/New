@@ -5,6 +5,7 @@
 @import url(./css/digitacao.css);
 @import url(./css/botoes.css);
 @import url(./css/visor.css);
+@import url(./css/resultado.css);
 
 :root {
     --fundo: #44c2ce;
@@ -20,4 +21,10 @@
     --cinza-logo: #e7e7e7;
     --cinza-dig: #3f3534;
     --preto-dig: #131313;
+}
+
+
+
+.inv {
+    display: none;
 }

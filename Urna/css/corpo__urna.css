@@ -22,5 +22,14 @@
     border-left: 4vmax solid transparent;
     border-right: 4vmax solid transparent; 
     border-radius: 40px;
-    
+}
+.sombra {
+    position: absolute;
+    z-index: 1;
+    width: 70vw;
+    height: 1vw;
+    top: 86%;
+    left: 17%;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20%;
 }
