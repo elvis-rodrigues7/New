@@ -1,6 +1,7 @@
 
 .topo__urna {
     position: absolute;
+    z-index: 1;
     top: 9.1%;
     left: 19%;
     width: 50vw;
@@ -12,6 +13,7 @@
 
 .frente__urna {
     position: absolute;
+    z-index: 2;
     width: 66vw;
     height: 0;
     top: 15%;

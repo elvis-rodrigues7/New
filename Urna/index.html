@@ -9,6 +9,7 @@
     <title>Urna Eletrônica</title>
 </head>
 <body>
+    <!--Background-->
     <section class="together">
         <div class="listra__amarela1"></div>
         <div class="listra__verde1"></div>
@@ -17,15 +18,23 @@
         <div class="listra__amarela3"></div>
         <div class="listra__verde3"></div>
     </section>
+    <!--Corpo da urna-->
     <div class="topo__urna"></div>
-    <div class="frente__urna"></div>  
-    <section class="totals">
-        <div class="Visor">
-            <div class="visu_num"></div>
-            <div class="prevoto"></div>
-        </div>
-    </section>
+    <div class="frente__urna"></div>
+    <!--tela-->
+    <section class="totals"></section>
     <section class="totals0"></section>
+    <div class="Visor">
+        <h2 class="visu__presi">PRESIDENTE</h2>
+        <div class="visu__num1">
+            <p class="num1__resultado"></p>
+        </div>
+        <div class="visu__num2">
+            <p class="num2__resultado"></p>
+        </div>
+        <div class="prevoto"></div>
+    </div>
+    <!--Digitação-->
     <section class="totals1">
         <div class="digitacao">
             <div class="justica">
@@ -34,25 +43,25 @@
             </div>
             <div class="botoes">
                 <div class="numeros num">
-                    <button class="num1 num__style" value="1">1</button>
-                    <button class="num2 num__style" value="2">2</button>
-                    <button class="num3 num__style" value="3">3</button>
-                    <button class="num4 num__style" value="4">4</button>
-                    <button class="num5 num__style" value="5">5</button>
-                    <button class="num6 num__style" value="6">6</button>
-                    <button class="num7 num__style" value="7">7</button>
-                    <button class="num8 num__style" value="8">8</button>
-                    <button class="num9 num__style" value="9">9</button>
-                    <button class="num0 num__style  " value="0">0</button>
+                    <button class="num1 num__style" type="button" value="1">1</button>
+                    <button class="num2 num__style" type="button" value="2">2</button>
+                    <button class="num3 num__style" type="button" value="3">3</button>
+                    <button class="num4 num__style" type="button" value="4">4</button>
+                    <button class="num5 num__style" type="button" value="5">5</button>
+                    <button class="num6 num__style" type="button" value="6">6</button>
+                    <button class="num7 num__style" type="button" value="7">7</button>
+                    <button class="num8 num__style" type="button" value="8">8</button>
+                    <button class="num9 num__style" type="button" value="9">9</button>
+                    <button class="num0 num__style" type="button" value="0">0</button>
                 </div>
                 <div class="editores">
-                    <button class="branco">Branco</button>
-                    <button class="corrigir">Corrigir</button>
-                    <button class="confirmar">Confimar</button>
+                    <button class="branco">BRANCO</button>
+                    <button class="corrigir">CORRIGIR</button>
+                    <button class="confirmar">CONFIRMAR</button>
                 </div>
             </div>
         </div>
     </section>
-    
+    <script src="./main.js"></script>
 </body>
 </html>

@@ -1,44 +1,43 @@
 .totals {
-    display: grid;
     position: absolute;
+    z-index: 3;
     background-color: var(--cinza-tela);
     width: 40vmax;
     height: 60vmin;
-    left: 20%;
+    left: 19%;
     top: 22%;
-    border-radius: 1%;
+    border-top: 5px solid var(--cinza-borda-tela);
+    border-left: 5px solid var(--cinza-borda-tela);
+    border-bottom: 5px solid var(--cinza-borda-tela);
+    border-radius: 2% 0 0 2%;
     transform: skew(-6deg);
 }
 
 .totals0 {
     position: absolute;
+    z-index: 4;
     background-color: var(--cinza-tela);
     width: 20vmax;
     height: 60vmin;
     left: 43%;
     top: 22%;
-    border-radius: 1%;
+    border-top: 5px solid var(--cinza-borda-tela);
+    border-right: 5px solid var(--cinza-borda-tela);
+    border-bottom: 5px solid var(--cinza-borda-tela);
+    border-radius: 0 2% 2% 0;
 
     transform: skew(6deg);
 }
 
 .totals1 {
     position: absolute;
+    z-index: 5;
     background-color: var(--cinza-dig);
     width: 20vmax;
     height: 60vmin;
     left: 65%;
     top: 22%;
+    border: 1.8px solid var(--cinza-borda-tela);
     border-radius: 1%;
     transform: skew(6deg);
-}
-
-.Visor {
-    grid-area: visor;
-    width: 13vmax;
-}
-
-.digitacao {
-    grid-area: digitacao;
-    width: 13vmax;
 }
